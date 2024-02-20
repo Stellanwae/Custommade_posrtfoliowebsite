@@ -511,7 +511,7 @@ body {
     /* height: 50px; */
    }
 
-   
+
 
    .project-content {
     flex-direction: column;
@@ -534,6 +534,10 @@ body {
    .socials img {
     width: 15px;
     height: 15px;
+
+    .footer {
+        width: 100vw;
+    }
 }
 }
 
