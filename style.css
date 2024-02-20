@@ -520,6 +520,14 @@ body {
     margin-top: 70px;
    }
 
+   .project {
+    flex-basis: 100%;
+   }
+
+   .project-explanation {
+    flex-basis: 100%;
+   }
+
    .footer-container {
     font-size: var(--small-screen-small-font);
     margin-bottom: 10px;
