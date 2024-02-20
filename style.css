@@ -511,7 +511,9 @@ body {
     /* height: 50px; */
    }
 
-
+   .project-technologies {
+    font-size: 16px;
+   }
 
    .project-content {
     flex-direction: column;
