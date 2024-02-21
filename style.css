@@ -213,7 +213,7 @@ body {
 /* Projects */
 .project-container {
     transition: 2s all;
-   
+    
 }
 
 .project-container h3 {
@@ -501,6 +501,11 @@ body {
     font-size: var(--small-screen-normal);
     width: 100%;
    }
+
+   .skills-container {
+    height: 100vh;
+    margin-bottom: 200px;
+   }
    .skills {
     grid-template-columns: repeat(2, auto);
     grid-gap: 10%;
@@ -508,8 +513,10 @@ body {
 
    .skills div {
     padding: 30px;
+    font-size: 10px;
     /* height: 50px; */
    }
+
 
    .project-technologies {
     font-size: 16px;
@@ -548,6 +555,7 @@ body {
     .footer {
         width: 100vw;
     }
+
 }
 }
 
@@ -555,17 +563,24 @@ body {
     .main {
         padding: 0 5%;
     }
+    
+    .skills-container {
+        margin-bottom: 100px;
+        height: 100vh;
+    }
 
     .skills {
         grid-template-columns: repeat(3, auto);
+        grid-gap: 20px;
     }
 
     .skills div {
-        padding: 60px 40px
+        padding: 40px 20px
     }
 
     .project-container {
-        margin-top: 100px;
+        /* margin-top: 100px; */
+        
     }
 
     .project-content {
