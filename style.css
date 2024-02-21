@@ -500,11 +500,11 @@ body {
        }
     
        .names {
-        font-size: var(--medium-font)
+        font-size: 25px;
        }
     
        .rolling-text h1{
-        font-size: var(--small-screen-normal);
+        font-size: 15px;
         width: 100%;
        }
     
