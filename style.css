@@ -484,9 +484,20 @@ body {
 /* Responsive design */
 
 @media (max-width: 425px) {
+    .main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
     .navbar {
         font-size: 12px;
        } 
+
+       .intro {
+        height: 100vh;
+        margin-bottom: 200px;
+       }
     
        .names {
         font-size: var(--medium-font)
@@ -498,7 +509,7 @@ body {
        }
     
        .skills-container {
-        height: 100vh;
+        /* height: 100vh; */
         margin-bottom: 200px;
        }
        .skills {
@@ -512,6 +523,9 @@ body {
         /* height: 50px; */
        }
     
+       .project-container {
+        margin-top: 200px;
+       }
     
        .project-technologies {
         font-size: 16px;
