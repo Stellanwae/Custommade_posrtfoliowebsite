@@ -572,6 +572,7 @@ body {
     
        .socials {
         margin-bottom: 25px;
+        gap: 15px;
        }
     
        .socials img {
