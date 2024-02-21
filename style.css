@@ -572,12 +572,12 @@ body {
     
        .socials {
         margin-bottom: 25px;
-        gap: 15px;
+        gap: 25px;
        }
     
        .socials img {
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         }
         .copyright {
             font-size: 7px;
