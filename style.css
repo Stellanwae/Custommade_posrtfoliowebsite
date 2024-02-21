@@ -596,6 +596,9 @@ body {
     width: 100%;
    }
 
+   .arrow {
+    display: none;
+   }
    .skills-container {
     height: 100vh;
     margin-bottom: 200px;
