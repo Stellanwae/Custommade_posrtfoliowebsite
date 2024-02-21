@@ -495,7 +495,7 @@ body {
        } 
 
        .intro {
-        /* height: 100vh; */
+        height: 70vh;
         /* margin-bottom: 200px; */
         margin: 0;
         
@@ -519,7 +519,7 @@ body {
        }
     
        .skills-container {
-        /* height: 100vh; */
+        height: 70vh;
         /* margin-bottom: 200px; */
         margin: 0;
        }
