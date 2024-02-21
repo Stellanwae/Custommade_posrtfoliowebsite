@@ -495,7 +495,7 @@ body {
        } 
 
        .intro {
-        height: 100vh;
+        /* height: 100vh; */
         margin-bottom: 200px;
        }
     
@@ -503,6 +503,10 @@ body {
         font-size: 25px;
        }
     
+       .arrow {
+        display: none;
+       }
+
        .rolling-text h1{
         font-size: 15px;
         width: 100%;
@@ -515,11 +519,12 @@ body {
        .skills {
         grid-template-columns: repeat(2, auto);
         grid-gap: 10%;
+        justify-content: center;
        }
     
        .skills div {
-        padding: 30px;
-        font-size: 10px;
+        padding: 25px;
+        font-size: 8px;
         /* height: 50px; */
        }
     
