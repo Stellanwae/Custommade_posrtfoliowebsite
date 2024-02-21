@@ -497,6 +497,7 @@ body {
        .intro {
         /* height: 100vh; */
         /* margin-bottom: 200px; */
+        margin: 0;
        }
     
        .names {
@@ -514,7 +515,8 @@ body {
     
        .skills-container {
         /* height: 100vh; */
-        margin-bottom: 200px;
+        /* margin-bottom: 200px; */
+        margin: 0;
        }
        .skills {
         grid-template-columns: repeat(2, auto);
@@ -530,6 +532,7 @@ body {
     
        .project-container {
         /* margin-top: 200px; */
+        margin: 0;
        }
     
        .project-technologies {
