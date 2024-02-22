@@ -10,9 +10,9 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -30,12 +30,12 @@
                 </h1>                  
                 <!-- <hr width="30%"> -->
             </div>
-            <a href="#" class="resume">Download Resume</a>
+            <a href="documents/Resume_Stella_Nwae.pdf" class="resume">Download Resume</a>
             <div class="arrow" id="arrow"></div>
 
         </div>
 
-        <div class="skills-container">
+        <div id="skills" class="skills-container">
             <h3>Skills</h3>
             <div class="skills">
 
@@ -75,30 +75,32 @@
             </div>
         </div>
 
-        <div class="project-container">
+        <div id="projects" class="project-container">
             <h3>Projects</h3>
             <div class="project-content">
                 <div class="project">
                     <div class="project-img">
-                        <img src="images//pic2.jpg" alt="">
+                        <a href="/BlogApp"><img src="images/blog-img.png" alt=""></a>
                     </div>
                     <div class="project-technologies">
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JAVASCRIPT</p>
+                        <p>MONGODB</p>
+                        <p>EXPRESSJS</p>
                         <p>NODEJS</p>
+                        <!-- <p>NODEJS</p> -->
                     </div>
                 </div>
                 <div class="project-explanation">
-                    <h1>News Landing Page</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum non perspiciatis aspernatur quibusdam, laborum culpa mollitia. Explicabo quisquam, quibusdam rem velit aut suscipit unde aspernatur quia sed, soluta nemo?</p>
-                    <button>View Project</button>
+                    <h1>Blog Website</h1>
+                    <p>This is a multipage app that gives the user the ability to sign up, sign in and start writing blogs. Without signing in user will not be able to 
+                        write a blog. Signed up users are able to write blogs in different stylish fonts.
+                    </p>
+                    <button><a href="/BlogApp">View Project</a></button>
                 </div>
             </div>
             <div class="project-content">
                 <div class="project">
                     <div class="project-img">
-                        <img src="images//pic1.jpg" alt="">
+                        <a href="/portfolio"><img src="images/portfolio_website.png" alt=""></a>
                     </div>
                     <div class="project-technologies">
                         <p>HTML</p>
@@ -108,51 +110,57 @@
                     </div>
                 </div>
                 <div class="project-explanation">
-                    <h1>News Landing Page</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum non perspiciatis aspernatur quibusdam, laborum culpa mollitia. Explicabo quisquam, quibusdam rem velit aut suscipit unde aspernatur quia sed, soluta nemo?</p>
-                    <button>View Project</button>
+                    <h1>Portfolio Website</h1>
+                    <p>This web app showcases my skills so far in the frontend development journey. Though it is mainily for potential employers to see, it is a valued projects
+                        since a lot of thought went into having a personally crafted website.
+                    </p>
+                    <button><a href="/portfolio">View Project</a></button>
                 </div>
             </div>
             <div class="project-content">
                 <div class="project">
                     <div class="project-img">
-                        <img src="images//pic2.jpg" alt="">
+                        <a href="/Reactmeme"><img src="images/meme-img.png" alt=""></a>
                     </div>
                     <div class="project-technologies">
+                        <p>REACT</p>
                         <p>HTML</p>
                         <p>CSS</p>
                         <p>JAVASCRIPT</p>
-                        <p>NODEJS</p>
+                        
                     </div>
                 </div>
                 <div class="project-explanation">
-                    <h1>News Landing Page</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum non perspiciatis aspernatur quibusdam, laborum culpa mollitia. Explicabo quisquam, quibusdam rem velit aut suscipit unde aspernatur quia sed, soluta nemo?</p>
-                    <button>View Project</button>
+                    <h1>React meme app</h1>
+                    <p>Rawly crafted using the React library and an API, this app allows the user to write a text at the top of the image and another at the bottom, making it a meme.</p>
+                    <button><a href="/Reactmeme">View Project</a></button>
                 </div>
             </div>
             <div class="project-content">
                 <div class="project">
                     <div class="project-img">
-                        <img src="images//pic1.jpg" alt="">
+                        <a href="/FacebookClone"><img src="images/facebook-img.png" alt=""></a>
                     </div>
                     <div class="project-technologies">
+                        
                         <p>HTML</p>
                         <p>CSS</p>
                         <p>JAVASCRIPT</p>
-                        <p>NODEJS</p>
+                        
                     </div>
                 </div>
                 <div class="project-explanation">
-                    <h1>News Landing Page</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum non perspiciatis aspernatur quibusdam, laborum culpa mollitia. Explicabo quisquam, quibusdam rem velit aut suscipit unde aspernatur quia sed, soluta nemo?</p>
-                    <button>View Project</button>
+                    <h1>Facebook clone</h1>
+                    <p>Being a frontend developer sometimes means you have to bring designs to life, this was the aim of the project. This is a responsive frontend side of 
+                        the Facebook clone. It has both light and dark modes functionality.
+                    </p>
+                    <button><a href="/FacebookClone">View Project></a></button>
                 </div>
             </div>
             <div class="project-content">
                 <div class="project">
                     <div class="project-img">
-                        <img src="images//desktop-preview.jpg" alt="">
+                        <a href="/comingsoon"><img src="images//desktop-preview.jpg" alt=""></a>
                     </div>
                     <div class="project-technologies">
                         <p>HTML</p>
@@ -162,40 +170,38 @@
                     </div>
                 </div>
                 <div class="project-explanation">
-                    <h1>News Landing Page</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum non perspiciatis aspernatur quibusdam, laborum culpa mollitia. Explicabo quisquam, quibusdam rem velit aut suscipit unde aspernatur quia sed, soluta nemo?</p>
-                    <button>View Project</button>
+                    <h1>Finance App</h1>
+                    <p>This app will allow user to track their fundraising finances. It is aimed towards users who have an ongoing fundraiser, but don't want to go through the 
+                        stress of adding up the values. View project to learn more. </p>
+                    <button><a href="/comingsoon">View Project</a></button>
                 </div>
             </div>
         </div>
 
-        <div class="contact-container">
+        <div id="contact" class="contact-container">
             <div class="contact">
                 <h3>Contacts</h3>
-                <div class="contact-input">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
-                    <textarea name="message" id="" placeholder="Message"></textarea>
-                    <button>Submit</button>
-                </div>
+                <form action="https://api.web3forms.com/submit"  method="POST" class="contact-input"  >
+
+                    <input type="hidden" name="access_key" value="c421d02c-0823-432b-a901-32f615b7c262">
+                    <input type="text" id="name" name="name" required placeholder="Name">
+                    <input type="text" id="email" name="email" required placeholder="Email">
+                    <textarea name="message" required id="message" placeholder="Message"></textarea>
+                    <button id="submit-btn" type="submit">Submit</button>
+                </form>
 
             </div>
-            <!-- <div class="socials">
-                <p>😊</p>
-                <hr>
-                <p>😂</p>
-                <hr>
-                <p>😍</p>
-            </div> -->
+           
+            
         </div>
     </div>
     <footer class="footer footer-bg">
         <div class="footer-container">
             <div class="socials">
-                <img src="images/github.png" alt="">
-                <img src="images/linkedin.png" alt="">
-                <img src="images/dribbble.png" alt="">
-                <img src="images/whatsapp.png" alt="">
+                <a href="https://github.com/Stellanwae" target="_blank" ><img src="images/github.png" alt=""></a>
+                <a href="www.linkedin.com/in/stella-nicole-3b624814b"  target="_blank"><img src="images/linkedin.png"  alt=""></a>
+                <a href="https://dribbble.com/stellanic" target="_blank"><img src="images/dribbble.png" ></a>
+                <a href="https://wa.me/254791403641" target="_blank"><img src="images/whatsapp.png"></a>
             </div>
             <!-- <hr> -->
             <div class="copyright">

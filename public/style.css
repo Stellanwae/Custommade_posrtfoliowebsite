@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -17,7 +18,7 @@
     --large-font-weight: 700;
     --extra-large-font-weight: 800;
 
-    --bg-color: #000;
+    --bg-color: #141F1D;
     --norm-font-color: #fff;
     --custom-font-color: wheat;
 
@@ -70,6 +71,11 @@ body {
 .navbar ul li a {
     text-decoration: none;
     color: white;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 1px solid darkslategray;
+   
 }
 
 .names {
@@ -237,6 +243,7 @@ body {
 
 .project-img   {
     width: 100%;
+    
     transition: 2s all;
     flex-basis: 45%;
 }
@@ -297,6 +304,11 @@ body {
     padding: 10px 20px;
     max-width: 200px;
     margin: 0 auto;
+}
+
+.project-explanation button a {
+    text-decoration: none;
+    color: white;
 }
 
 .project-explanation button:hover {
@@ -390,7 +402,7 @@ body {
 }
 
 .footer-bg {
-    background-image: url('wave-haikei.svg');
+    background-image: url('images/wave-haikei.svg');
 }
 
 .footer-container {
@@ -482,6 +494,13 @@ body {
 }
 
 
+/* Modal  */
+
+
+
+
+
+
 
 
 /* Responsive design */
@@ -550,15 +569,19 @@ body {
     
        .project-content {
         flex-direction: column;
+        margin-bottom: 30px;
+        
         margin-top: 70px;
        }
     
        .project {
         flex-basis: 100%;
+        
        }
     
        .project-explanation {
         flex-basis: 100%;
+        
        }
     
        .contact-container {
@@ -591,6 +614,30 @@ body {
         .copyright {
             font-size: 7px;
         }
+
+        /* project-page */
+
+        .demo-links h2{
+            font-size: 15px;
+        }
+
+        .project-main {
+            line-height: 20px;
+        }
+
+        .project-page-content div {
+            margin-bottom: 40px;
+        }
+
+        .project-page-content div h4 {
+            font-size: 12px;
+        }
+
+        .project-page-content div span {
+            font-size: 8px;
+        }
+
+        
 }
 
 
@@ -644,6 +691,7 @@ body {
 
    .project {
     flex-basis: 100%;
+    margin-bottom: 30px;
    }
 
    .project-explanation {
